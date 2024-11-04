@@ -1,0 +1,1311 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/ungveloper/web-fonts/SCoreDream/font-face.css");
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css");
+
+
+:root {
+    --mainblue1: #66CCFF;
+    --mainblue2: #57C6DB;
+    --mainyellow: #FEE227;
+    --subyellow: #FCF4A3;
+    --textgray1: #333;
+    --textgray2: #666;
+    --textgray3: #aaa;
+    --textgrat4: #eee;
+    --linecolor1: #666;
+    --linecolor2: #9c9c9c;
+    --linecolor3: #ddd;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: var(--textgray1);
+    background: #FFF;
+    font-family: "Aleo", 'SCoreDream', 'SUIT Variable', sans-serif, serif;
+    overflow-x: hidden;
+    /* position: relative; */
+}
+
+.snow_wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.top_btn{
+    position: fixed;
+    right: 50px;
+    bottom: 60px;
+    /* transform: translateY(-50%); */
+    z-index: 100;
+}
+.top_btn a{
+    display: block;
+    background: var(--mainblue1);
+    color: var(--textgray1);
+    width: 60px; height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    width: 906px;
+    height: 100px;
+    text-align: center;
+    margin-left: 86px;
+    font: 700 18px/1 'SUIT Variable';
+    display: flex;
+    align-items: center;
+}
+
+header nav ul.gnb {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul.gnb li a {
+    display: block;
+}
+
+
+.SMN_effect-49 a {
+    transition: 0.35s;
+}
+
+.SMN_effect-49 a:hover {
+    color: #fff;
+    text-shadow: 0 0 15px var(--textgray2);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+header .right {
+    width: 161px;
+    height: 32px;
+    position: absolute;
+    right: 50%;
+    margin-right: -761px;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .right .audio {
+    width: 99px;
+    height: 32px;
+    border: 1px solid var(--linecolor1);
+    border-radius: 50px;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+header .right .audio .area {
+    width: 69px;
+    height: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--textgray2);
+}
+
+header .right .audio .area button {
+    border: 0;
+    cursor: pointer;
+    color: var(--textgray2);
+}
+
+.ham_menu {
+    display: none;
+}
+
+.main_visual {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/header_gra_img.jpg) no-repeat -40px center/cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main_visual .container {
+    margin-bottom: 20px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main_visual .container .main_title .logo {
+    width: 737px;
+    height: 192px;
+    background-image: url(../img/header_logo_big.png);
+}
+
+.main_visual .container .main_title .title_sub {
+    color: var(--textgray2);
+    position: absolute;
+    right: 370px;
+    top: 10px;
+    font-size: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.main_visual .container .main_title .title_sub:hover {
+    animation: blur 2s ease 0s;
+    -webkit-animation: blur 4s ease 0s infinite;
+    -moz-animation: blur 4s ease 0s infinite;
+}
+
+@keyframes blur {
+
+    0%,
+    90% {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+    }
+
+    50% {
+        -webkit-filter: blur(50px);
+        -moz-filter: blur(50px);
+        -o-filter: blur(50px);
+        -ms-filter: blur(50px);
+    }
+}
+
+
+
+
+
+.main_visual .container .scrolldown {
+    margin: 0 auto;
+}
+
+
+
+
+
+.con2 {
+    height: auto;
+    /* main 높이를 auto로 변경 */
+    overflow: hidden;
+  }
+  main .synopsis .img_box {
+    width: 100%;
+    height: 100vh;
+    /* background: rgba(0,0,0,0.5); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+
+main .synopsis {
+    height: 4323px;
+    position: relative;
+    background: #000;
+}
+
+main .synopsis.on {
+    /* background: #000; */
+}
+
+main .synopsis .container {
+    height: 100%;
+    padding-top: 730px;
+    padding-bottom: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .synopsis .top {
+    width: 100%;
+    height: 100vh;
+    /* 화면 전체 높이만큼 설정 */
+    position: relative;
+}
+
+main .synopsis .top .synop {
+    width: 100%;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+main .synopsis .top .synop .title {
+    font: 800 45px/1 'SUIT Variable';
+    color: var(--mainblue1);
+}
+
+main .synopsis .top .synop p {
+    width: 852px;
+    font: 300 24px/38px 'SCoreDream';
+    color: #fff;
+}
+
+main .synopsis .top .main_frame {
+    width: 100%;
+    height: 1704px;
+}
+
+main .synopsis .top .main_frame .main_txt {
+    width: 100%;
+    height: 100%;
+}
+
+main .synopsis .top .main_frame .main_txt li {
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid var(--linecolor2);
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+main .synopsis .top .main_frame .main_txt li .txt {
+    width: 620px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--textgray2);
+
+}
+
+main .synopsis .top .main_frame .main_txt li.on .txt {
+    color: #fff;
+}
+
+main .synopsis .top .main_frame .main_txt li .txt .left {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: space-between;
+}
+
+main .synopsis .top .main_frame .main_txt li .txt .circle {
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--textgray2);
+    border-radius: 50%;
+    transition: .6s;
+    align-self: center;
+}
+
+main .synopsis .top .main_frame .main_txt li.on .txt .circle {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/circle_light.png);
+    border: 0;
+}
+
+main .synopsis .top .main_frame .main_txt li .txt .year {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: calc(100% - 76px);
+}
+
+main .synopsis .top .main_frame .main_txt li .txt .year .year_num {
+    font: 800 60px/1 'SUIT Variable';
+}
+
+main .synopsis .top .main_frame .main_txt li .txt .year span {
+    font: 500 28px/1 'SCoreDream';
+}
+
+main .synopsis .top .main_frame .main_txt li .txt p {
+    width: 262px;
+    font: 300 18px/22px 'SCoreDream';
+    align-self: flex-end;
+}
+
+main .synopsis .top .main_frame .main_txt li img {
+    position: absolute;
+    right: 0;
+    top: 84px;
+    z-index: 1;
+    opacity: 0;
+    transition: .6s;
+    display: none;
+}
+
+main .synopsis .top .main_frame .main_txt li.on img {
+    opacity: 1;
+}
+
+main .synopsis .bottom {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+main .synopsis .bottom .title {
+    width: 100%;
+    height: 1050px;
+    position: relative;
+}
+
+main .synopsis .bottom .title .fastphoto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .synopsis .bottom .title .title1 {
+    font: 500 160px/1.5 'SCoreDream';
+    position: absolute;
+    color: var(--textgray1);
+    left: 37px;
+    top: 0;
+}
+
+main .synopsis .bottom .title .title2 {
+    font: 500 160px/1.5 'SCoreDream';
+    position: absolute;
+    color: var(--textgray1);
+    right: 0;
+    top: 456px;
+}
+
+main .synopsis .bottom .title .title3 {
+    font: 500 160px/1.5 'SCoreDream';
+    position: absolute;
+    color: var(--linecolor3);
+    right: 360px;
+    top: 660px;
+}
+
+main .synopsis .bottom .title .title4 {
+    font: 500 160px/1.5 'SCoreDream';
+    position: absolute;
+    color: var(--textgray1);
+    right: 200px;
+    top: 660px;
+}
+
+main .synopsis .bottom .title .title5 {
+    font: 500 160px/1.5 'SCoreDream';
+    position: absolute;
+    color: var(--textgray1);
+    right: 0;
+    top: 660px;
+    letter-spacing: -20px;
+}
+
+main .synopsis .bottom .scrolldown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+}
+.scrolldown{
+    -webkit-animation: sdb 1.5s infinite;
+    animation: sdb 1.5s infinite;
+}
+@-webkit-keyframes sdb {
+    0% {
+        -webkit-transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes sdb {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+}
+
+main .characters {
+    width: 100%;
+    height: 1243px;
+    position: relative;
+    padding: 253px 0;
+}
+
+main .characters .wrap {
+    height: 737px;
+    position: relative;
+}
+
+main .characters .mini_c .women{
+    background-image: url(../img/women.png);
+}
+main .characters .mini_c .men{
+    background-image: url(../img/men.png);
+}
+
+main .characters .wrap .women,
+main .characters .wrap .men {
+    width: 100%;
+    height: 737px;
+    /* opacity: 0; */
+    background: url(../img/characters_bg.jpg) no-repeat;
+    /* background: red; */
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* top: 253px; */
+    opacity: 0;
+}
+
+main .characters .wrap .on {
+    opacity: 1;
+}
+
+
+
+main .characters .wrap .main_frame {
+    width: 1104px;
+    height: 626px;
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+
+main .characters .wrap .main_frame .person {
+    width: 400px;
+    height: 100%;
+
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+    z-index: 10;
+    cursor: pointer;
+}
+
+main .characters .wrap .main_frame .person:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+main .characters .wrap .main_frame .main_txt {
+    width: 577px;
+    height: 586px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex h3 {
+    font: 800 30px/1 'SUIT Variable';
+    color: var(--mainblue2);
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt {
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt span {
+    font: 800 60px/1 'SUIT Variable';
+    color: var(--textgray1);
+    display: inline-block;
+    display: flex;
+    align-items: flex-end;
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt>p {
+    font: 700 30px/1 'SUIT Variable';
+    height: 100%;
+    color: var(--textgray2);
+    display: flex;
+    align-items: flex-end;
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    width: 100%;
+    height: 175px;
+    font: 400 18px/1.4 'SCoreDream';
+    color: var(--textgray1);
+}
+
+main .characters .wrap .main_frame .main_txt .line_txt {
+    width: 406px;
+    height: 136px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, var(--mainblue2), #fff);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .characters .wrap .main_frame .main_txt .line_txt p {
+    font: 500 28px/1.4 'SCoreDream';
+    background: linear-gradient(to right, var(--mainblue2), #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    /* background: #ccc; */
+}
+
+main .characters .wrap .men .main_frame .main_txt .line_txt p:nth-child(2) {
+    padding-left: 20px;
+}
+
+main .characters .mini_c {
+    width: 100px;
+    height: 217px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 200;
+    right: 6%;
+    top: 34%;
+    cursor: pointer;
+    z-index: 100;
+}
+
+main .characters .mini_c div {
+    width: 100%;
+    height: 100px;
+}
+
+
+main .movie_trailer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url(../img/film_edge.png), url(../img/film_edge.png), url(../img/bg_movie_stop.png);
+    background-size: 100% 80px, 100% 80px, 1920px 850px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top center, bottom center, center center;
+}
+
+main .movie_trailer .container {
+    height: 488px;
+}
+
+main .movie_trailer .main_frame {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .movie_trailer .main_frame button.movieplay {
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+
+main .movie_trailer .main_frame .main_text {
+    width: 562px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main .movie_trailer .main_frame .main_text .text {
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main .movie_trailer .main_frame .main_text .text .head {
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main .movie_trailer .main_frame .main_text .text .head h3 {
+    color: var(--mainblue1);
+    font: 800 30px/1 'SUIT Variable';
+}
+
+main .movie_trailer .main_frame .main_text .text .line {
+    width: 19px;
+    border-bottom: 1px solid #fff;
+}
+
+main .movie_trailer .main_frame .main_text .text .story {
+    height: 206px;
+    font: 400 20px/1.5 'SCoreDream';
+    color: #fff;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .movie_trailer .main_frame .main_text .share_icon {
+    width: 130px;
+    height: 25px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+main .photo {
+    width: 100%;
+    height: 3000px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+main .photo .container {
+    height: 2605px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .photo .main_txt {
+    width: 500px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10%;
+}
+
+main .photo .main_txt .head_txt {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .photo .main_txt .head_txt h2 {
+    color: var(--mainblue2);
+    font: 800 45px/1 'SUIT Variable';
+}
+
+main .photo .main_txt .head_txt .body_txt {
+    width: 100%;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .photo .main_txt .head_txt .body_txt p {
+    color: var(--textgray1);
+    font: 800 50px/1 'SUIT Variable';
+}
+
+main .photo .main_txt .head_txt .body_txt p:first-child {
+    color: var(--textgray3);
+}
+
+main .photo .main_txt .add_button {
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    border-radius: 50px;
+    font: 400 22px/1 'SCoreDream';
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #57C6DB);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.5);
+    background-size: 300% 100%;
+    border: 0;
+
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+main .photo .main_txt .add_button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+
+main .photo .photo_image {
+    width: 750px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+main .photo .photo_image ul li {
+    margin-top: 30px;
+    width: 360px;
+    height: 440px;
+    perspective: 1000px;
+    position: relative;
+}
+
+main .photo .photo_image ul li:hover .card {
+    transform: rotateY(180deg);
+    /* 천천히 뒤집게 하고 싶으면 어케하나욤~~?? */
+}
+
+main .photo .photo_image ul li .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+    perspective-origin: center;
+    transform-style: preserve-3d;
+}
+
+main .photo .photo_image ul li .card .front {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+main .photo .photo_image ul li .card .back {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+
+main .photo .photo_image ul {
+    width: 360px;
+}
+
+main .photo .photo_image ul.right {
+    margin-top: 34%;
+}
+
+.masking {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -7%;
+}
+
+main .comment {
+    width: 100%;
+    height: 1032px;
+    display: flex;
+    align-items: center;
+}
+
+main .comment .wrap {
+    width: 100%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .comment .container {
+    height: 192px;
+}
+
+main .comment .container .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .comment .container .title .title_txt {
+    width: 405px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .comment .container .title .title_txt .head_txt {
+    width: 244px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .comment .container .title .title_txt .head_txt h2 {
+    font: 800 45px/1 'SUIT Variable';
+
+}
+
+main .comment .container .title .title_txt .head_txt h2:nth-child(1) {
+    color: var(--textgray1);
+}
+
+main .comment .container .title .title_txt .head_txt h2:nth-child(2) {
+    color: var(--mainblue2);
+}
+
+main .comment .container .title .title_txt span {
+    width: 405px;
+    font: 400 24px/38px 'SCoreDream';
+    color: var(--textgray1);
+}
+
+main .comment .container .title .more_button {
+    width: 171px;
+    height: 60px;
+    color: #fff;
+
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #57C6DB);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.5);
+    background-size: 300% 100%;
+    border: 0;
+
+    border-radius: 50px;
+    align-self: flex-end;
+    font: 400 24px/38px 'SCoreDream';
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+main .comment .container .title .more_button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+main .comment .container .title .more_button:focus {
+    outline: none;
+}
+
+main .comment .film {
+    width: 100%;
+    height: 568px;
+    position: relative;
+    overflow: hidden;
+}
+
+.review_all {
+    width: 1320px;
+    height: 280px;
+    position: absolute;
+    left: 300px;
+    top: 174px;
+    z-index: 2;
+}
+
+main .comment .film ul.review {
+    width: 100%;
+    height: 280px;
+    display: flex;
+}
+
+main .comment .film ul.review li {
+    height: 280px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main .comment .film ul.review li .review_txt {
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    font: 400 20px/1.5 'SCoreDream';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .comment .film ul.review li.review1 .review_txt p:nth-child(1) {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+main .comment .film ul.review li:not(:first-of-type) .review_txt p:nth-child(1) {
+    width: 100%;
+    height: 150px;
+}
+
+main .comment .film ul.review li.review1 {
+    background-image: url(../img/con1.png);
+    background-size: cover;
+}
+
+main .comment .film ul.review li.review2 {
+    background-image: url(../img/con2.png);
+    background-size: cover;
+}
+
+main .comment .film ul.review li.review3 {
+    background-image: url(../img/con3.png);
+    background-size: cover;
+}
+
+main .comment .film ul.review li.review4 {
+    background-image: url(../img/con4.png);
+    background-size: cover;
+}
+
+main .comment .film ul.review li.review5 {
+    background-image: url(../img/con5.png);
+    background-size: cover;
+}
+
+main .comment .film ul.review li.review6 {
+    background-image: url(../img/con6.png);
+    background-size: cover;
+}
+
+
+main .comment .film ul.review li .portal_icon {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+}
+
+
+main .event {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+main .event .container {
+    height: 522px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .event ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+main .event ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .event ul li .left {
+    width: 564px;
+    height: 438px;
+}
+
+main .event ul li .main_txt {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .event ul li .main_txt .head {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .event ul li .main_txt .head h2 {
+    font: 800 40px/1 'SUIT Variable';
+    color: var(--mainblue2);
+}
+
+main .event ul li .main_txt .head>.bottom {
+    font: 800 50px/1 'SUIT Variable';
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .event ul li .main_txt>.bottom {
+    width: 100%;
+    font: 400 24px/38px 'SCoreDream';
+}
+
+main .event ul li .event_img {
+    width: 618px;
+    height: 522px;
+    text-align: center;
+}
+
+.event .list .swiper-pagination {
+    width: 400px;
+    background-color: var(--linecolor3);
+    transform: translateY(440px);
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background-color: var(--mainblue2);
+}
+
+.sw{
+    position: absolute;
+    left: 440px; top: 430px;
+    width: 140px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event .list .sw .swiper-pagination2 {
+    width: 42px;
+    height: 20px;
+    font: 500 18px/1 'SCoreDream';
+    background: #fff;
+    text-align: center;
+}
+
+.event .list .sw .swiper-button-prev {
+    background-image: url(../img/right_arrow.png);
+    width: 24px;
+    height: 24px;
+    top: 21px;
+}
+
+.event .list .sw .swiper-button-next {
+    background-image: url(../img/left_arrow.png);
+    width: 24px;
+    height: 24px;
+    top: 21px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+
+main .ticketing {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: var(--linecolor3);
+}
+
+main .ticketing .container {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .ticketing strong {
+    font: 800 50px/1 'SUIT Variable';
+}
+
+main .ticketing ul.cinema_icon {
+    height: 174px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+/* 
+@keyframes reveal {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+} */
+
+main .ticketing ul.cinema_icon li {
+    width: 141px;
+    height: 174px;
+    font: 400 20px/1.5 'SCoreDream';
+    cursor: pointer;
+    /* animation: reveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards; */
+}
+
+
+main .ticketing ul.cinema_icon li a>p {
+    margin-top: 14px;
+}
+
+main .ticketing ul.cinema_icon li a {
+    display: block;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: var(--textgray1);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+footer .container {
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo {
+    width: 100px;
+    height: 26px;
+}
+
+footer .copy {
+    color: var(--textgray3);
+    align-self: center;
+    font: 400 12px/1;
+}
+
+footer ul.sns {
+    display: flex;
+    width: 134px;
+    height: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+footer ul.sns li {
+    margin-right: 15px;
+}
+
+
+footer ul.sns li:last-child {
+    margin-right: 0;
+}

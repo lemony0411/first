@@ -1,0 +1,2623 @@
+@charset "utf-8";
+
+
+@media screen and (max-width:1424px) {
+  .container {
+    width: 90%;
+  }
+
+  /* **************header 시작************** */
+  header nav {
+    width: 62%;
+    margin-left: 100px;
+  }
+
+  header .right {
+    right: 0%;
+    margin-right: 0px;
+  }
+
+  /* **************header 끝************** */
+
+
+
+  /* **************event 시작************** */
+
+  main .event ul li .left {
+    width: 44%;
+  }
+
+
+  main .event ul li .event_img {
+    width: 618px;
+    height: 522px;
+    text-align: center;
+  }
+
+  /* **************event 끝************** */
+
+}
+
+@media screen and (max-width:1280px) {
+
+  .top_btn {
+    bottom: 50px;
+}
+
+
+  /* **************synopsis 시작************** */
+
+  main .synopsis .top .main_frame .main_txt li img {
+    top: 32%;
+    width: 42%;
+  }
+
+  main .synopsis .bottom {
+    height: 100vh;
+  }
+
+  main .synopsis .bottom .title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .synopsis .bottom .title .fastphoto {
+    width: 50%;
+  }
+
+  main .synopsis .bottom .title .fastphoto img {
+    width: 100%;
+    height: 100%;
+  }
+
+  main .synopsis .bottom .title .title1 {
+    top: -4%;
+    left: -1%;
+  }
+
+  main .synopsis .bottom .title .title2 {
+    top: 40%;
+    right: 16px;
+    letter-spacing: -26px;
+  }
+
+  main .synopsis .bottom .title .title3 {
+    left: 47%;
+    top: 60%;
+  }
+
+  main .synopsis .bottom .title .title4 {
+    left: 61%;
+    top: 60%;
+    color: var(--linecolor3);
+  }
+
+  main .synopsis .bottom .title .title5 {
+    left: 75%;
+    top: 60%;
+    letter-spacing: 0;
+  }
+
+  /* **************synopsis 끝**************
+
+  */
+
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 16px/1.4 'SCoreDream';
+  }
+
+
+  /* **************photo 시작************** */
+
+  main .photo .container {}
+
+  main .photo .main_txt {
+    height: 300px;
+  }
+
+  main .photo .photo_image {
+    width: 80%;
+    height: auto;
+  }
+
+  main .photo .main_txt .head_txt {
+    height: 150px;
+  }
+
+  main .photo .main_txt .head_txt h2 {
+    color: var(--mainblue2);
+    font: 800 30px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .head_txt .body_txt {
+    height: 86px;
+  }
+
+  main .photo .main_txt .head_txt .body_txt p {
+    color: var(--textgray1);
+    font: 800 36px/1 'SUIT Variable';
+    letter-spacing: -1px;
+  }
+
+  main .photo .main_txt .add_button {
+    width: 44%;
+    border-radius: 50px;
+    font: 400 18px/1 'SCoreDream';
+  }
+
+  /* **************photo 끝************** */
+
+
+
+  /* **************comment 시작************** */
+  main .comment .container .title .title_txt {
+    height: 176px;
+  }
+
+  /* **************comment 끝************** */
+
+  /* **************event 시작************** */
+
+  main .event ul li .left {
+    width: 51%;
+  }
+
+  main .event ul li .event_img {
+    width: 40%;
+  }
+
+  main .event ul li .event_img img {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .event .list .swiper-pagination {
+    display: none;
+  }
+
+  .sw {
+    left: 460px;
+    top: 350px;
+  }
+
+  /* **************event 끝************** */
+
+
+  /* **************ticketing 시작************** */
+
+
+
+  main .ticketing ul.cinema_icon {
+    height: 174px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+  }
+
+  main .ticketing ul.cinema_icon li {
+    width: 141px;
+    height: 174px;
+    font: 400 20px/1.5 'SCoreDream';
+    cursor: pointer;
+    animation: reveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  }
+
+  /* **************ticketing 끝************** */
+}
+
+/* @@@@@@@@@@@@@@ 1280px 종료 @@@@@@@@@@@@@@ */
+
+@media screen and (max-width:1170px) {
+
+  /* **************header 시작************** */
+  header nav {
+    margin-left: 80px;
+  }
+
+  /* **************header 끝************** */
+
+
+
+  /* **************photo 시작************** */
+  main .photo {
+    height: auto;
+  }
+
+  main .photo .container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px auto;
+  }
+
+  main .photo .main_txt {
+    width: auto;
+    padding: 0 60px;
+    height: 264px;
+    position: static;
+  }
+
+  main .photo .main_txt .head_txt {
+    height: 176px;
+  }
+
+  main .photo .main_txt .head_txt h2 {
+    font: 800 34px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .head_txt .body_txt {
+    height: 100px;
+  }
+
+  main .photo .main_txt .head_txt .body_txt p {
+    font: 800 42px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .add_button {
+    width: 200px;
+    font: 400 20px/1 'SCoreDream';
+    margin: 0 auto;
+  }
+
+  main .photo .photo_image {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  main .photo .photo_image ul {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 44px;
+    margin: 0 auto;
+  }
+
+  main .photo .photo_image ul li {
+    margin-top: 30px;
+    width: 360px;
+    /* height: 440px; */
+    perspective: 1000px;
+    position: relative;
+  }
+
+
+  main .photo .photo_image ul.left li:nth-child(2n) {
+    align-self: flex-start;
+  }
+
+  main .photo .photo_image ul.right {
+    margin-top: 20%;
+  }
+
+  main .photo .photo_image ul.right li:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  /* **************photo 끝************** */
+
+
+  .sw {
+    left: 0;
+    top: 410px;
+  }
+
+
+
+  main .ticketing ul.cinema_icon li {
+    font: 400 18px/1.5 'SCoreDream';
+  }
+}
+
+@media screen and (max-width:1080px) {
+
+  /* **************header 시작************** */
+  header nav {
+    margin-left: 50px;
+  }
+
+  /* **************header 끝************** */
+
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    width: 100%;
+    height: 175px;
+    font: 400 14px/1.4 'SCoreDream';
+  }
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+  .top_btn a {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
+
+  /* **************header 시작************** */
+  header nav {
+    width: 58%;
+    margin-left: 70px;
+    font: 700 16px/1 'SUIT Variable';
+  }
+
+  /* **************header 끝************** */
+
+
+
+  /* **************main_visual 시작************** */
+  .main_visual {
+    padding-bottom: 80px;
+  }
+
+  /* **************main_visual 끝************** */
+
+
+
+  /* **************synopsis 시작************** */
+  main .synopsis {
+    height: auto;
+    transition: 1s;
+  }
+
+  main .synopsis .container {
+    padding-top: 90%;
+    padding-bottom: 0;
+
+  }
+
+  main .synopsis .top {
+    transform: translateY(-14%);
+  }
+
+  main .synopsis .top .main_frame .main_txt li img {
+    top: 136%;
+    width: 100%;
+  }
+
+  main .synopsis .bottom {
+    height: calc(100vh - 200px);
+  }
+
+  main .synopsis .bottom .title {
+    justify-content: flex-start;
+  }
+
+  main .synopsis .bottom .title .fastphoto {
+    width: 67%;
+  }
+
+  main .synopsis .bottom .title .title1 {
+    top: 0%;
+    left: 54%;
+  }
+
+  main .synopsis .bottom .title .title2 {
+    letter-spacing: -24px;
+  }
+
+  main .synopsis .bottom .title .title3 {
+    left: 33%;
+    top: 60%;
+  }
+
+  main .synopsis .bottom .title .title4 {
+    left: 50%;
+    top: 60%;
+    color: var(--linecolor3);
+  }
+
+  main .synopsis .bottom .title .title5 {
+    left: 67%;
+    top: 60%;
+    letter-spacing: 0;
+  }
+
+  /* **************synopsis 끝***************/
+
+
+  /* **************characters 시작***************/
+  main .characters .mini_c {
+    height: 190px;
+    right: 4%;
+    top: 65%;
+  }
+
+  main .characters .mini_c div img {
+    width: 80%;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 18px/1.4 'SCoreDream';
+  }
+
+
+  /* **************characters 끝***************/
+
+
+
+  /* **************movie_trailer 시작***************/
+  main .movie_trailer {
+    width: 100%;
+    height: 1006px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url(../img/film_edge.png), url(../img/film_edge.png), url(../img/bg_movie_stop.png);
+    background-size: 100% 6%, 100% 6%, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top center, bottom center, center center;
+  }
+
+  /* **************movie_trailer 끝***************/
+
+
+
+  /* **************photo 시작************** */
+  main .photo {
+    height: auto;
+  }
+
+  main .photo .container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px auto;
+  }
+
+  main .photo .main_txt {
+    width: auto;
+    padding: 0 60px;
+    height: 264px;
+    position: static;
+  }
+
+  main .photo .main_txt .head_txt {
+    height: 176px;
+  }
+
+  main .photo .main_txt .head_txt h2 {
+    font: 800 34px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .head_txt .body_txt {
+    height: 100px;
+  }
+
+  main .photo .main_txt .head_txt .body_txt p {
+    font: 800 42px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .add_button {
+    width: 200px;
+    font: 400 20px/1 'SCoreDream';
+    margin: 0 auto;
+  }
+
+  main .photo .photo_image {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  main .photo .photo_image ul {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 44px;
+    margin: 0 auto;
+  }
+
+  main .photo .photo_image ul li {
+    margin-top: 30px;
+    width: 360px;
+    /* height: 440px; */
+    perspective: 1000px;
+    position: relative;
+  }
+
+
+  main .photo .photo_image ul.left li:nth-child(2n) {
+    align-self: flex-start;
+  }
+
+  main .photo .photo_image ul.right {
+    margin-top: 20%;
+  }
+
+  main .photo .photo_image ul.right li:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  /* **************photo 끝************** */
+
+
+
+  /* **************comment 시작************** */
+  main .comment .container .title .title_txt {
+    height: 176px;
+  }
+
+  /* **************comment 끝************** */
+
+
+
+
+
+  /* **************ticketing 시작************** */
+  main .ticketing {
+    height: auto;
+    padding: 100px 0 70px;
+  }
+
+  main .ticketing .container {
+    height: 280px;
+  }
+
+  main .ticketing ul.cinema_icon {
+    height: 160px;
+  }
+
+  main .ticketing ul.cinema_icon li {
+    font: 400 14px/1.5 'SCoreDream';
+  }
+
+  main .ticketing ul.cinema_icon li a>img {
+    width: 80px;
+  }
+
+  /* **************ticketing 끝************** */
+}
+
+/* @@@@@@@@@@@@@@ 1024px 종료 @@@@@@@@@@@@@@ */
+
+
+
+@media screen and (max-width:940px) {
+
+  /* **************header 시작************** */
+  header nav {
+    margin-left: 50px;
+  }
+
+  /* **************header 끝************** */
+
+  main .synopsis .top .synop {
+    width: 100%;
+    height: 172px;
+  }
+
+  main .synopsis .top .synop p {
+    width: 100%;
+    font: 400 21px/1.5 'SCoreDream';
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 14px/1.4 'SCoreDream';
+  }
+}
+
+
+
+@media screen and (max-width:870px) {
+
+  /* **************header 시작************** */
+  header nav {
+    /* width: 46%; */
+    margin-left: 30px;
+    font: 700 12px / 1 'SUIT Variable';
+  }
+
+  /* **************header 끝************** */
+
+
+  main .event ul li .main_txt .head>.bottom {
+    font: 800 44px/1 'SUIT Variable';
+  }
+
+  main .event ul li .main_txt>.bottom {
+    font: 400 20px/1.5 'SCoreDream';
+    height: 80px;
+  }
+}
+
+
+@media screen and (max-width:820px) {
+
+  /* **************header 시작************** */
+  header nav {
+    display: none;
+  }
+
+  /* **************header 끝************** */
+
+  /* **************main_visual 시작************** */
+  .main_visual .container .main_title .logo {
+    width: 700px;
+    height: 180px;
+    background-image: url(../img/header_logo_tablet.png) no-repeat;
+    background-size: 100%;
+  }
+
+  .main_visual .container .main_title .title_sub {
+    right: 55%;
+  }
+
+  /* **************main_visual 끝************** */
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt span {
+    font: 800 50px / 1 'SUIT Variable';
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 12px/1.4 'SCoreDream';
+  }
+}
+
+@media all and (max-width:768px) {
+  .container {
+    width: 100%;
+    max-width: 602px;
+  }
+
+  .top_btn a {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+
+  /* **************header 시작************** */
+  header nav {
+    display: none;
+  }
+
+  header .right {
+    right: 50%;
+    margin-right: -301px;
+  }
+
+  .ham_menu {
+    display: block;
+  }
+
+  /* **************header 끝************** */
+
+  /* **************main_visual 시작************** */
+  .main_visual {
+    background: url(../img/header_gra_img.jpg) no-repeat;
+  }
+
+  .main_visual .container .main_title .logo {
+    width: 602px;
+    height: 157px;
+    background-image: url(../img/header_logo_tablet.png);
+  }
+
+  .main_visual .container .main_title .title_sub {
+    right: 47%;
+    top: 0;
+    font-size: 30px;
+  }
+
+  /* **************main_visual 끝************** */
+
+
+  /* **************synopsis 시작************** */
+  main .synopsis {
+    height: auto;
+    padding: 300px 0 219px;
+  }
+
+  main .synopsis .container {
+    height: auto;
+    padding-top: 313px;
+  }
+
+  main .synopsis .top {
+    height: 2100px;
+  }
+
+  main .synopsis .top .synop {
+    width: 602px;
+    height: 175px;
+  }
+
+  main .synopsis .top .synop p {
+    width: 100%;
+    font: 400 18px/1.5 'SCoreDream';
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .synopsis .top .main_frame {
+    height: 1824px;
+  }
+
+  main .synopsis .top .main_frame .main_txt li {
+    height: 178px;
+  }
+
+  main .synopsis .top .main_frame .main_txt li img {
+    top: 123%;
+  }
+
+  main .synopsis .bottom {
+    height: 852px;
+  }
+
+  main .synopsis .bottom .title {
+    height: 100%;
+  }
+
+  main .synopsis .bottom .title .fastphoto {
+    width: 432px;
+    height: 536px;
+  }
+
+  main .synopsis .bottom .title .fastphoto img {
+    width: 100%;
+    height: 100%;
+  }
+
+  main .synopsis .bottom .title .title1,
+  main .synopsis .bottom .title .title3,
+  main .synopsis .bottom .title .title4,
+  main .synopsis .bottom .title .title5 {
+    font: 500 110px/1.5 'SCoreDream';
+    left: 0;
+    top: 0;
+  }
+
+  main .synopsis .bottom .title .title2 {
+    font: 500 76px/1 'SCoreDream';
+    top: 47%;
+    letter-spacing: 0;
+    right: 0;
+  }
+
+  main .synopsis .bottom .title .title3 {
+    left: 39%;
+    top: 56%;
+  }
+
+  main .synopsis .bottom .title .title4 {
+    left: 55%;
+    top: 56%;
+    color: var(--linecolor3);
+  }
+
+  main .synopsis .bottom .title .title5 {
+    left: 72%;
+    top: 56%;
+    letter-spacing: 0;
+  }
+
+  main .synopsis .bottom .scrolldown {
+    bottom: 0;
+  }
+
+  /* **************synopsis 끝************** */
+
+
+
+  /* **************characters 시작************** */
+  main .characters {
+    height: 3059px;
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .characters .mini_c {
+    position: static;
+    width: 220px;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+  }
+
+  main .characters .mini_c div {
+    width: 80px;
+    height: 80px;
+  }
+
+  main .characters .mini_c div img {
+    width: 80px;
+    height: 80px;
+    transform: scaleX(-1);
+  }
+
+  main .characters .wrap {
+    width: 100%;
+    height: 2879px;
+    padding: 110px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .characters .wrap .women,
+  main .characters .wrap .men {
+    position: relative;
+  }
+
+  main .characters .wrap .women {
+    width: 768px;
+    height: 1297px;
+  }
+
+  main .characters .wrap .men {
+    width: 768px;
+    height: 1322px;
+    opacity: 1;
+    margin-top: 118px;
+  }
+
+  main .characters .wrap .main_frame {
+    width: 600px;
+    height: 1242px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  main .characters .wrap .main_frame .person {
+    width: 368px;
+    height: 626px;
+
+  }
+
+  main .characters .wrap .men .main_frame .person {
+    align-self: flex-end;
+  }
+
+  main .characters .wrap .main_frame .main_txt {
+    width: 602px;
+    height: 496px;
+  }
+
+  main .characters .wrap .men .main_frame .main_txt .introduction_txt {
+    height: 355px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt span {
+    font: 800 60px / 1 'SUIT Variable';
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 18px/1.4 'SCoreDream';
+    height: 200px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .line_txt {
+    height: 116px;
+  }
+
+  /* **************characters 끝************** */
+
+
+
+  /* **************movie_trailer 시작************** */
+  main .movie_trailer {
+    height: 1080px;
+    background-image: url(../img/film_edge_tablet.png), url(../img/film_edge_tablet.png), url(../img/bg_movie_stop_tablet.png);
+    background-size: 100%, 100%, cover;
+    margin: 58px 0;
+    background-position: top center, bottom center, center center;
+  }
+
+  main .movie_trailer .container {
+    height: 1080px;
+    display: flex;
+    align-items: center;
+  }
+
+  main .movie_trailer .main_frame {
+    height: 675px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  main .movie_trailer .main_frame button.movieplay {
+    width: 130px;
+    height: 130px;
+  }
+
+  main .movie_trailer .main_frame button.movieplay img {
+    width: 100%;
+  }
+
+  main .movie_trailer .main_frame .main_text {
+    width: 507px;
+    height: 488px;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .story {
+    font: 400 18px/1.6 'SCoreDream';
+  }
+
+  /* **************movie_trailer 끝************** */
+
+
+  /* **************photo 시작************** */
+  main .photo {
+    height: auto;
+  }
+
+  main .photo .container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px auto;
+  }
+
+  main .photo .main_txt {
+    height: 280px;
+  }
+
+  main .photo .main_txt .head_txt {
+    height: 190px;
+  }
+
+  n main .photo .main_txt .head_txt h2 {
+    font: 800 30px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .head_txt .body_txt {
+    height: 118px;
+  }
+
+  main .photo .main_txt .head_txt .body_txt p {
+    font: 800 50px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .add_button {
+    width: 160px;
+    height: 48px;
+    font: 400 16px/1 'SCoreDream';
+  }
+
+  main .photo .photo_image {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  main .photo .photo_image ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 44px;
+  }
+
+  main .photo .photo_image ul.left li:nth-child(2n) {
+    align-self: flex-end;
+  }
+
+  main .photo .photo_image ul.right {
+    margin-top: 0;
+  }
+
+  main .photo .photo_image ul.right li:nth-child(odd) {
+    align-self: flex-end;
+  }
+
+  /* **************photo 끝************** */
+
+
+  /* **************comment 시작************** */
+  main .comment {
+    height: auto;
+  }
+
+  main .comment .wrap {
+    height: auto;
+    margin: 100px 0;
+  }
+
+  main .comment .container .title {
+    width: 390px;
+    height: 190px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  main .comment .container .title .title_txt {
+    width: auto;
+    height: 94px;
+    text-align: center;
+  }
+
+  main .comment .container .title .title_txt .head_txt {
+    flex-direction: row;
+    width: auto;
+    height: auto;
+  }
+
+  main .comment .container .title .title_txt span {
+    width: auto;
+    font: 400 20px/1 'SCoreDream';
+  }
+
+  main .comment .container .title .more_button {
+    width: 160px;
+    height: 56px;
+    font: 400 16px/1.5 'SCoreDream';
+    margin: 0 auto;
+  }
+
+  main .comment .film {
+    left: -27%;
+    width: 980px;
+  }
+
+  /* **************comment 끝************** */
+
+
+
+  /* **************main .event 시작************** */
+  main .event {
+    height: auto;
+    padding: 100px 0;
+  }
+
+  main .event .container {
+    height: 950px;
+  }
+
+  main .event ul li {
+    display: flex;
+    flex-direction: column;
+    height: 860px;
+  }
+
+  main .event ul li .left {
+    width: 100%;
+    height: 285px;
+  }
+
+  main .event ul li .main_txt {
+    height: 100%;
+  }
+
+  main .event ul li .main_txt .head {
+    height: 173px;
+  }
+
+  main .event ul li .main_txt .head h2 {
+    font: 800 30px/1 'SUIT Variable';
+  }
+
+  main .event ul li .main_txt>.bottom {
+    font: 400 24px/1.5 'SCoreDream';
+  }
+
+  main .event ul li .event_img {
+    width: 602px;
+    height: 518px;
+    text-align: center;
+  }
+
+  main .event ul li .event_img img {
+    width: auto;
+  }
+
+  main .event ul li:nth-child(2) .event_img img {
+    left: 8%;
+  }
+
+  .sw {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 900px;
+    z-index: 10;
+  }
+
+  /* **************event 끝************** */
+
+
+
+  /* **************ticketing 시작************** */
+  main .ticketing {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  main .ticketing .container {
+    height: 210px;
+  }
+
+  main .ticketing strong {
+    font: 800 45px/1 'SUIT Variable';
+  }
+
+  main .ticketing ul.cinema_icon {
+    height: 130px;
+  }
+
+  main .ticketing ul.cinema_icon li {
+    width: 100px;
+    height: 100%;
+    font: 400 12px/1.5 'SCoreDream';
+  }
+
+  main .ticketing ul.cinema_icon li a>img {
+    width: 60px;
+  }
+
+  /* **************ticketing 끝************** */
+
+
+
+  footer ul.sns {
+    width: 100px;
+    height: 24px;
+  }
+
+  footer ul.sns li {
+    margin-right: 10px;
+  }
+
+  footer ul.sns li a img {
+    width: 100%;
+  }
+}
+
+/* @@@@@@@@@@@@@@ 768px 종료 @@@@@@@@@@@@@@ */
+
+@media all and (max-width:680px) {
+  main .characters .wrap .main_frame {
+    margin: 0 0;
+}
+  main .characters .wrap .main_frame .main_txt {
+    width: 580px;
+    height: 496px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 16px/1.4 'SCoreDream';
+    height: 200px;
+  }
+}
+
+
+@media all and (max-width:630px) {
+
+  header .right {
+    right: 0;
+    margin-right: 30px;
+  }
+
+  .main_visual .container .main_title .logo {
+    width: 560px;
+    height: 142px;
+    background-image: url(../img/header_logo_tablet.png);
+    background-size: 100%;
+  }
+
+  .main_visual .container .main_title .title_sub {
+    right: 280px;
+    font-size: 24px;
+  }
+
+
+
+
+  /* **************photo 시작************** */
+  main .photo .container {
+    padding-top: 60px;
+  }
+
+  main .photo .main_txt {
+    height: 150px;
+  }
+
+  main .photo .main_txt .head_txt {
+    height: 105px;
+  }
+
+  main .photo .main_txt .head_txt h2 {
+    font: 800 18px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .head_txt .body_txt {
+    height: 75px;
+  }
+
+  main .photo .main_txt .head_txt .body_txt p {
+    font: 800 28px/1 'SUIT Variable';
+  }
+
+  main .photo .main_txt .add_button {
+    width: 100px;
+    height: 30px;
+    font: 400 10px/1.5 'SCoreDream';
+  }
+
+  main .photo .photo_image ul {
+    align-items: center;
+    margin-top: 0;
+  }
+
+  main .photo .photo_image ul li {
+    margin-top: 40px;
+  }
+
+  main .photo .photo_image ul.left li:nth-child(2n) {
+    align-self: center;
+  }
+
+  main .photo .photo_image ul.right li:nth-child(odd) {
+    align-self: center;
+  }
+
+  /* **************photo 끝************** */
+
+  /* **************main .event 시작************** */
+  main .event {
+    padding: 100px 0;
+  }
+
+  main .event .container {
+    height: auto;
+    width: 90%;
+  }
+
+
+  main .event ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+
+
+  main .event ul li .left {
+    height: 162px;
+  }
+
+  main .event ul li .main_txt {
+    height: 100%;
+  }
+
+  main .event ul li .main_txt .head {
+    height: 100px;
+  }
+
+  main .event ul li .main_txt .head h2 {
+    font: 800 18px/1 'SUIT Variable';
+  }
+
+  main .event ul li .main_txt .head>.bottom {
+    font: 800 28px/1 'SUIT Variable';
+    height: 70px;
+  }
+
+  main .event ul li .main_txt>.bottom {
+    font: 400 14px/1.5 'SCoreDream';
+  }
+
+
+
+  main .event ul li .event_img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 30px;
+  }
+
+  main .event ul li .event_img img {
+    width: 80%;
+  }
+
+  main .event ul li:nth-child(2) .event_img img {
+    left: 8%;
+  }
+
+  .sw {
+    left: 450px;
+    top: 0px;
+    width: 120px;
+  }
+
+  .event .list .sw .swiper-pagination2 {
+    width: auto;
+    height: auto;
+    font: 500 14px/1 'SCoreDream';
+  }
+
+  .event .list .sw .swiper-button-prev {
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    top: 24px;
+  }
+
+  .event .list .sw .swiper-button-next {
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    top: 24px;
+  }
+
+  /* **************event 끝************** */
+
+
+
+
+  /* **************ticketing 시작************** */
+  main .ticketing {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  main .ticketing .container {
+    height: 325px;
+  }
+
+  main .ticketing strong {
+    font: 800 28px/1 'SUIT Variable';
+  }
+
+  main .ticketing ul.cinema_icon {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main .ticketing ul.cinema_icon li {
+    height: 130px;
+  }
+
+  main .ticketing ul.cinema_icon li:nth-child(2n+4) {
+    width: auto;
+    height: 130px;
+  }
+
+  main .ticketing ul.cinema_icon li:nth-child(odd) {
+    height: 130px;
+  }
+
+  main .ticketing ul.cinema_icon li a>img {
+    width: 60px;
+  }
+
+  /* **************ticketing 끝************** */
+
+
+
+  footer {
+    height: auto;
+    padding: 24px 0;
+  }
+
+  footer .container {
+    height: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  footer .copy {
+    margin: 10px 0;
+  }
+}
+
+@media all and (max-width:570px) {
+
+  .main_visual .container .main_title .logo {
+    width: 500px;
+    height: 130px;
+  }
+
+  .main_visual .container .main_title .title_sub {
+    right: 240px;
+    top: 2%;
+  }
+
+
+  main .synopsis .top .synop {
+    width: 100%;
+  }
+
+  /* **************synopsis 시작************** */
+  main .synopsis {
+    margin-bottom: 80%;
+  }
+
+  main .synopsis .container {
+    padding-top: 90%;
+    /* padding-bottom: 80%; */
+  }
+
+  main .synopsis .top {
+    height: auto;
+  }
+
+  main .synopsis .top .synop {
+    width: 100%;
+    height: 216px;
+    margin-bottom: 50px;
+  }
+
+  main .synopsis .top .synop p {
+    width: 82%;
+  }
+
+  main .synopsis .top .main_frame {
+    height: auto;
+  }
+
+  main .synopsis .top .main_frame .main_txt li {
+    height: 200px;
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt {
+    flex-direction: column;
+    height: 160px;
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt .left {
+    height: 62%;
+  }
+
+  main .synopsis .top .main_frame .main_txt li.on .txt .circle,
+  main .synopsis .top .main_frame .main_txt li .txt .circle {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt .year {
+    height: 100%;
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt p {
+    width: 100%;
+    padding-left: 76px;
+    margin-top: 20px;
+  }
+
+  main .synopsis .bottom {
+    height: 54vh;
+  }
+
+  main .synopsis .bottom .title {
+    height: 92%;
+  }
+
+  main .synopsis .bottom .title .fastphoto {
+    width: 66%;
+    height: auto;
+  }
+
+  main .synopsis .bottom .title .title1,
+  main .synopsis .bottom .title .title3,
+  main .synopsis .bottom .title .title4,
+  main .synopsis .bottom .title .title5 {
+    font: 500 52px/1.5 'SCoreDream';
+    left: 0;
+    top: 0;
+  }
+
+  main .synopsis .bottom .title .title2 {
+    font: 500 52px/1 'SCoreDream';
+    top: 52%;
+    letter-spacing: 0;
+    right: 4%;
+  }
+
+  main .synopsis .bottom .title .title3 {
+    left: 52%;
+    top: 64%;
+  }
+
+  main .synopsis .bottom .title .title4 {
+    left: 66%;
+    top: 64%;
+    color: var(--textgray1);
+  }
+
+  main .synopsis .bottom .title .title5 {
+    left: 79%;
+    top: 64%;
+    letter-spacing: 0;
+  }
+
+  main .synopsis .bottom .scrolldown {
+    bottom: 0;
+  }
+
+  /* **************synopsis 끝************** */
+
+  
+  main .characters .wrap .main_frame {
+    width: auto;
+    margin-left: 10px;
+}
+  main .characters .wrap .main_frame .main_txt {
+    width: auto;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt span {
+    font: 800 50px/1 'SUIT Variable';
+}
+
+main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt>p {
+    font: 700 26px/1 'SUIT Variable';
+}
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 14px/1.4 'SCoreDream';
+    height: 160px;
+  }
+  main .characters .wrap .main_frame .main_txt .line_txt p {
+    font: 500 24px/1.4 'SCoreDream';
+}
+
+
+
+  /* **************movie_trailer 시작************** */
+  main .movie_trailer {
+    height: 54vh;
+    background-image: url(../img/film_edge_tablet.png), url(../img/film_edge_tablet.png), url(../img/bg_movie_stop_mobile.png);
+    background-size: 100%, 100%, cover;
+  }
+
+  main .movie_trailer .container {
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  main .movie_trailer .main_frame {
+    height: 26vh;
+  }
+
+  main .movie_trailer .main_frame button.movieplay {
+    width: 20%;
+    display: flex;
+  }
+
+  main .movie_trailer .main_frame button.movieplay img {
+    width: 100%;
+  }
+
+  main .movie_trailer .main_frame .main_text {
+    width: 100%;
+    height: 130px;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head {
+    height: 70px;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head h3 {
+    font: 800 18px/1 'SUIT Variable';
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head .title {
+    width: 50%;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head .title img {
+    width: 100%;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .story {
+    display: none;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .line {
+    display: none;
+  }
+
+  main .movie_trailer .main_frame .main_text .share_icon {
+    width: 26%;
+    gap: 5px;
+  }
+
+  main .movie_trailer .main_frame .main_text .share_icon img {
+    width: 21%;
+  }
+
+  /* **************movie_trailer 끝************** */
+  .sw {
+    left: 410px;
+    top: 0px;
+    width: 120px;
+  }
+
+}
+
+
+@media all and (max-width:520px) {
+
+  .main_visual .container .main_title .logo {
+    width: 400px;
+    height: 100px;
+  }
+
+  .main_visual .container .main_title .title_sub {
+    right: 190px;
+    font-size: 20px;
+  }
+
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 13px/1.4 'SCoreDream';
+    height: 160px;
+  }
+
+
+  .sw {
+    left: 326px;
+  }
+
+}
+
+@media all and (max-width:430px) {
+  .container {
+    width: 90%;
+  }
+  .top_btn {
+    right: 30px;
+    bottom: 40px;
+}
+  .top_btn a{
+    width: 50px; height: 50px;
+    font-size: 20px;
+}
+  /* **************header 시작************** */
+  header {
+    height: auto;
+    margin-top: 19px;
+  }
+
+  header nav {
+    margin-left: 0;
+    display: none;
+  }
+
+  header .container {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .right {
+    position: static;
+    width: auto;
+    margin-right: 0;
+    top: 0;
+  }
+
+  /* **************header 끝************** */
+
+  /* **************main_visual 시작************** */
+  .main_visual {
+    background: url(../img/header_gra_img.jpg) no-repeat 4% 0%;
+  }
+
+  .main_visual .container {
+    height: 28%;
+  }
+
+  .main_visual .container .main_title .logo {
+    width: 340px;
+    height: 88px;
+  }
+
+  .main_visual .container .main_title .title_sub {
+    right: 156px;
+    font-size: 18px;
+  }
+
+  /* **************main_visual 끝************** */
+
+
+
+
+
+
+  /* **************characters 시작************** */
+  main .characters {
+    height: auto;
+  }
+
+  main .characters .mini_c {
+    height: auto;
+  }
+
+  main .characters .wrap {
+    height: auto;
+  }
+
+  main .characters .wrap .women,
+  main .characters .wrap .men {
+    position: relative;
+    padding-top: 60px;
+  }
+
+  main .characters .wrap .women {
+    width: 100%;
+    height: auto;
+  }
+
+  main .characters .wrap .men {
+    width: 100%;
+    height: auto;
+  }
+
+  main .characters .wrap .main_frame {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  main .characters .wrap .main_frame .person {
+    width: 340px;
+    height: 578px;
+  }
+
+  main .characters .wrap .main_frame .person img {
+    width: 100%;
+  }
+
+  main .characters .wrap .main_frame .main_txt {
+    width: 349px;
+    height: 436px;
+    align-self: center;
+    margin-top: 40px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt {
+    height: 320px;
+  }
+
+  main .characters .wrap .men .main_frame .main_txt .introduction_txt {
+    height: 320px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex {
+    height: 61px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex h3 {
+    font: 800 18px/1 'SUIT Variable';
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt span {
+    font: 800 28px/1 'SUIT Variable';
+    display: inline-block;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt>p {
+    font: 700 18px/1 'SUIT Variable';
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    font: 400 14px/1.5 'SCoreDream';
+    width: 90%;
+    height: auto;
+  }
+
+  main .characters .wrap .men .main_frame .main_txt .introduction_txt>p {
+    width: 84%;
+    height: auto;
+    font: 400 14px/1.5 'SCoreDream';
+  }
+
+  main .characters .wrap .main_frame .main_txt .line_txt {
+    width: 100%;
+    height: 76px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .line_txt p {
+    font: 500 14px/1.4 'SCoreDream';
+    width: 100%;
+  }
+
+  /* **************characters 끝************** */
+
+
+
+  /* **************movie_trailer 시작************** */
+  main .movie_trailer {
+    height: 54vh;
+    background-image: url(../img/film_edge_tablet.png), url(../img/film_edge_tablet.png), url(../img/bg_movie_stop_mobile.png);
+    background-size: 100%, 100%, cover;
+    background-position: top center, bottom center, center center;
+  }
+
+  main .movie_trailer .container {
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  main .movie_trailer .main_frame {
+    height: 26vh;
+  }
+
+  main .movie_trailer .main_frame button.movieplay {
+    width: 20%;
+    display: flex;
+  }
+
+  main .movie_trailer .main_frame button.movieplay img {
+    width: 100%;
+  }
+
+  main .movie_trailer .main_frame .main_text {
+    width: 100%;
+    height: 130px;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head {
+    height: 70px;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head h3 {
+    font: 800 18px/1 'SUIT Variable';
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head .title {
+    width: 50%;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head .title img {
+    width: 100%;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .story {
+    display: none;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .line {
+    display: none;
+  }
+
+  main .movie_trailer .main_frame .main_text .share_icon {
+    width: 26%;
+    gap: 5px;
+  }
+
+  main .movie_trailer .main_frame .main_text .share_icon img {
+    width: 21%;
+  }
+
+  /* **************movie_trailer 끝************** */
+
+
+  /* **************photo 시작************** */
+  main .photo .container {
+    padding-top: 60px;
+    margin: 20% auto;
+  }
+
+  main .photo .main_txt {
+    padding: 0;
+  }
+
+  main .photo .main_txt .head_txt {
+    width: 100%;
+  }
+
+  main .photo .main_txt .head_txt .body_txt {
+    height: 68px;
+  }
+
+
+  main .photo .photo_image ul li {
+    width: 320px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  main .photo .photo_image ul li .card .front img,
+  main .photo .photo_image ul li .card .back img {
+    width: 100%;
+  }
+
+  /* **************photo 끝************** */
+
+
+
+  /* **************comment 시작************** */
+
+  main .comment .wrap {
+    height: auto;
+    margin: 60px 0;
+  }
+
+  main .comment .container {
+    height: auto;
+  }
+
+  main .comment .container .title {
+    width: auto;
+    height: 106px;
+  }
+
+  main .comment .container .title .title_txt {
+    width: 64%;
+    height: 60px;
+    margin: 0 auto;
+  }
+
+  main .comment .container .title .title_txt .head_txt h2 {
+    font: 800 28px/1 'SUIT Variable';
+  }
+
+  main .comment .container .title .title_txt span {
+    font: 400 14px/1 'SCoreDream';
+  }
+
+  main .comment .container .title .more_button {
+    width: 100px;
+    height: 30px;
+    font: 400 10px/1.5 'SCoreDream';
+    margin: 0 auto;
+  }
+
+
+
+  main .comment .film {
+    left: 0%;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  main .comment .film>img {
+    position: absolute;
+    left: -300px;
+    top: -60px;
+  }
+
+  .review_all {
+    left: 0;
+    top: 114px;
+    width: 100%;
+  }
+
+  main .comment .film ul.review li .review_txt {
+    width: 66%;
+    font: 400 18px/1.6 'SCoreDream';
+  }
+
+  main .comment .film ul.review li .portal_icon {
+    width: 8%;
+    right: 20px;
+    top: 20px;
+  }
+
+  main .comment .film ul.review li .portal_icon img {
+    width: 100%;
+  }
+
+  /* **************comment 끝************** */
+
+
+
+  /* **************main .event 시작************** */
+  main .event {
+    padding: 100px 0;
+  }
+
+  main .event .container {
+    height: auto;
+    width: 90%;
+  }
+
+
+  main .event ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+
+
+  main .event ul li .left {
+    height: 162px;
+  }
+
+  main .event ul li .main_txt {
+    height: 100%;
+  }
+
+  main .event ul li .main_txt .head {
+    height: 100px;
+  }
+
+  main .event ul li .main_txt .head h2 {
+    font: 800 18px/1 'SUIT Variable';
+  }
+
+  main .event ul li .main_txt .head>.bottom {
+    font: 800 28px/1 'SUIT Variable';
+    height: 70px;
+  }
+
+  main .event ul li .main_txt>.bottom {
+    font: 400 14px/1.5 'SCoreDream';
+  }
+
+
+
+  main .event ul li .event_img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 30px;
+  }
+
+  main .event ul li .event_img img {
+    width: 80%;
+  }
+
+  main .event ul li:nth-child(2) .event_img img {
+    left: 8%;
+  }
+
+  .sw {
+    left: 260px;
+  }
+  /* **************event 끝************** */
+
+
+}
+
+/* @@@@@@@@@@@@@@ 430px 종료 @@@@@@@@@@@@@@ */
+
+@media all and (max-width:422px) {
+
+  /* **************comment 시작************** */
+
+
+  main .comment .container .title .title_txt {
+    width: auto;
+  }
+
+  main .comment .film {
+    height: 320px;
+    margin-top: 60px;
+  }
+
+  main .comment .film>img {
+    height: 132%;
+    top: -74px;
+  }
+
+  .review_all {
+    height: 200px;
+    top: 60px;
+  }
+
+  main .comment .film ul.review {
+    height: 100%;
+  }
+
+  main .comment .film ul.review li {
+    width: 360px;
+    height: 100%;
+  }
+
+
+  main .comment .film ul.review li .review_txt {
+    width: 70%;
+    height: 142px;
+    font: 400 14px/1.6 'SCoreDream';
+  }
+
+  /* **************comment 끝************** */
+
+}
+
+@media all and (max-width:390px) {
+
+  .main_visual .container .main_title .logo {
+    width: 320px;
+    height: 80px;
+  }
+
+  .main_visual .container .main_title .title_sub {
+    right: 148px;
+    font-size: 16px;
+  }
+
+
+
+
+}
+
+@media all and (max-width:360px) {
+  .top_btn {
+    right: 20px;
+    bottom: 30px;
+}
+  .top_btn a{
+    width: 40px; height: 40px;
+    font-size: 18px;
+}
+  /* **************header 시작************** */
+  header .logo {
+    width: 30%;
+  }
+
+  header .logo img {
+    width: 100%;
+  }
+
+  header .right {
+    width: auto;
+  }
+
+  .ham_menu {
+    margin-left: 9px;
+    width: 22%;
+  }
+
+  .ham_menu img {
+    width: 100%;
+  }
+
+  /* **************header 끝************** */
+
+  /* **************main_visual 시작************** */
+  .main_visual {
+    background: url(../img/header_gra_img_mobile.png) no-repeat;
+  }
+
+
+  /* **************main_visual 끝************** */
+
+
+  /* **************synopsis 시작************** */
+  main .synopsis {
+    margin-bottom: 80px;
+    padding: 300px 0 0;
+  }
+
+  main .synopsis .container {
+    padding-bottom: 127px;
+  }
+
+  main .synopsis .top .synop {
+    height: 212px;
+    margin-bottom: 60px;
+  }
+
+  main .synopsis .top .synop .title {
+    font: 800 28px/1 'SUIT Variable';
+  }
+
+  main .synopsis .top .synop p {
+    width: 64%;
+    font: 300 14px/1.5 'SCoreDream';
+  }
+
+  main .synopsis .top .synop p>span:nth-child(2) {
+    width: 86%;
+  }
+
+  main .synopsis .top .synop p>span:nth-child(3) {
+    margin-top: 16px;
+    width: 86%;
+  }
+
+  main .synopsis .top .main_frame .main_txt li {
+    height: 166px;
+    margin-bottom: 27px;
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt {
+    height: 138px;
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt .year {
+    height: 69px;
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt .year .year_num {
+    font: 800 32px/1 'SUIT Variable';
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt .year span {
+    font: 500 20px/1 'SCoreDream';
+  }
+
+  main .synopsis .top .main_frame .main_txt li .txt p {
+    font: 300 14px/1.5 'SCoreDream';
+    width: 90%;
+    align-self: flex-start;
+  }
+
+  main .synopsis .top .main_frame .main_txt li img {
+    top: 118%;
+  }
+
+  main .synopsis .bottom .title .fastphoto {
+    width: 62%;
+  }
+
+  main .synopsis .bottom .title .title2 {
+    top: 48%;
+    right: 3%;
+  }
+
+  main .synopsis .bottom .title .title3 {
+    left: 46%;
+    top: 62%;
+  }
+
+  main .synopsis .bottom .title .title4 {
+    left: 61%;
+    top: 62%;
+  }
+
+  main .synopsis .bottom .title .title5 {
+    left: 76%;
+    top: 62%;
+  }
+
+  main .synopsis .bottom .scrolldown {
+    bottom: 0;
+  }
+
+  /* **************synopsis 끝************** */
+
+
+
+  /* **************characters 시작************** */
+
+  main .characters .wrap {
+    padding: 60px 0;
+  }
+
+  main .characters .wrap .women, main .characters .wrap .men{
+    background-size: 400%;
+  }
+
+  main .characters .wrap .main_frame {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  main .characters .wrap .main_frame .person {
+    width: 260px;
+    height: 450px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt>p {
+    width: 100%;
+  }
+
+  main .characters .wrap .men .main_frame .person {
+    align-self: flex-end;
+  }
+
+  main .characters .wrap .main_frame .main_txt{
+    width: 100%;
+  }
+
+  main .characters .wrap .men .main_frame .main_txt .introduction_txt {
+    height: 300px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex {
+    height: 56px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex h3 {
+    letter-spacing: -1px;
+  }
+
+  main .characters .wrap .main_frame .main_txt .introduction_txt .name_ex .name_txt {
+    letter-spacing: -1px;
+  }
+
+  main .characters .wrap .men .main_frame .main_txt .introduction_txt>p {
+    width: 100%;
+    height: auto;
+    font: 400 13px/1.5 'SCoreDream';
+  }
+
+
+
+
+  /* **************characters 끝************** */
+
+
+
+  /* **************movie_trailer 시작************** */
+  main .movie_trailer {
+    margin: 0;
+  }
+
+  main .movie_trailer .main_frame {
+    height: 24vh;
+  }
+
+  main .movie_trailer .main_frame button.movieplay {
+    width: 16%;
+    height: auto;
+  }
+
+  main .movie_trailer .main_frame .main_text {
+    height: 100px;
+  }
+
+  main .movie_trailer .main_frame .main_text .text {
+    height: 59px;
+  }
+
+  main .movie_trailer .main_frame .main_text .text .head .title {
+    width: 40%;
+  }
+
+  main .movie_trailer .main_frame .main_text .share_icon {
+    height: auto;
+  }
+
+
+  /* **************movie_trailer 끝************** */
+
+
+  /* **************photo 시작************** */
+  main .photo .container {
+    padding-top: 60px;
+    margin: 20% auto;
+  }
+
+  main .photo .main_txt {
+    padding: 0;
+  }
+
+  main .photo .main_txt .head_txt {
+    width: 100%;
+  }
+
+  main .photo .main_txt .head_txt .body_txt {
+    height: 68px;
+  }
+
+
+  main .photo .photo_image ul li {
+    width: 320px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  main .photo .photo_image ul li .card .front img,
+  main .photo .photo_image ul li .card .back img {
+    width: 100%;
+  }
+
+  /* **************photo 끝************** */
+
+
+  /* **************comment 시작************** */
+
+
+  main .comment .container .title .title_txt {
+    width: auto;
+  }
+
+  main .comment .film {
+    height: 320px;
+    margin-top: 60px;
+  }
+
+  main .comment .film>img {
+    height: 132%;
+    top: -74px;
+  }
+
+  .review_all {
+    height: 200px;
+    top: 60px;
+  }
+
+  main .comment .film ul.review {
+    height: 100%;
+  }
+
+  main .comment .film ul.review li {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  main .comment .film ul.review li .review_txt {
+    width: 70%;
+    height: 142px;
+    font: 400 14px/1.6 'SCoreDream';
+  }
+
+
+
+  /* **************comment 끝************** */
+
+
+
+  /* **************main .event 시작************** */
+  main .event {
+    padding: 100px 0;
+  }
+
+  main .event .container {
+    height: auto;
+    width: 90%;
+  }
+
+
+  main .event ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+
+
+  main .event ul li .left {
+    height: 162px;
+  }
+
+  main .event ul li .main_txt {
+    height: 100%;
+  }
+
+  main .event ul li .main_txt .head {
+    height: 100px;
+  }
+
+  main .event ul li .main_txt .head h2 {
+    font: 800 18px/1 'SUIT Variable';
+  }
+
+  main .event ul li .main_txt .head>.bottom {
+    font: 800 28px/1 'SUIT Variable';
+    height: 70px;
+  }
+
+  main .event ul li .main_txt>.bottom {
+    font: 400 14px/1.5 'SCoreDream';
+    height: auto;
+  }
+
+
+
+  main .event ul li .event_img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 30px;
+  }
+
+  main .event ul li .event_img img {
+    width: 80%;
+  }
+
+  main .event ul li:nth-child(2) .event_img img {
+    left: 8%;
+  }
+
+  .sw {
+    left: 260px;
+    width: 86px;
+  }
+  .event .list .sw .swiper-pagination2 {
+    width: auto;
+    height: auto;
+    font: 500 12px/1 'SCoreDream';
+}
+
+.event .list .sw .swiper-button-prev {
+    width: 14px;
+    height: 14px;
+    top: 26px;
+}
+
+.event .list .sw .swiper-button-next {
+    width: 14px;
+    height: 14px;
+    top: 26px;
+}
+  /* **************event 끝************** */
+
+
+
+  /* **************ticketing 시작************** */
+  main .ticketing {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  main .ticketing .container {
+    height: 325px;
+  }
+
+  main .ticketing strong {
+    font: 800 28px/1 'SUIT Variable';
+  }
+
+  main .ticketing ul.cinema_icon {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main .ticketing ul.cinema_icon li {
+    height: 130px;
+  }
+
+  main .ticketing ul.cinema_icon li:nth-child(2n+4) {
+    width: auto;
+    height: 130px;
+  }
+
+  main .ticketing ul.cinema_icon li:nth-child(odd) {
+    height: 130px;
+  }
+
+  main .ticketing ul.cinema_icon li a>img {
+    width: 60px;
+  }
+
+  /* **************ticketing 끝************** */
+  footer {
+    height: auto;
+    padding: 24px 0;
+  }
+
+  footer .container {
+    height: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  footer .copy {
+    margin: 10px 0;
+  }
+
+  footer .logo {
+    width: 60px;
+    height: 16px;
+  }
+
+  footer .logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer ul.sns {
+    width: 86px;
+    height: 16px;
+  }
+}
